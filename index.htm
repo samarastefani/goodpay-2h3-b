@@ -9,8 +9,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
     <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/action.js"></script>
     <title>GoodPay</title>
 </head>
 
@@ -21,7 +21,7 @@
                 <ul class="menu">
                     <li>
                         <a href="#" class="active">
-                            <img src="./img/logo-goodpay.png" alt="Logo do site" width="38px" height="38px">
+                            <img src="./img/logo-goodpay.png" alt="Logo do site" width="44px" height="44px">
                         </a>
                     </li>
                     <li>
@@ -44,10 +44,56 @@
         </section>
     </header>
     <main>
-
+        <section name="slide-banners">
+            <div class="w3-content w3-display-container banner">
+                <img class="mySlides" src="./img/banner1.png" style="width: 100%;">
+                <img class="mySlides" src="./img/banner2.png" style="width: 100%;">
+                <img class="mySlides" src="./img/banner3.png" style="width: 100%;">
+                <img class="mySlides" src="./img/banner4.png" style="width: 100%;">
+                <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width: 100%;">
+                    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+                    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+                    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+                    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+                </div>
+            </div>
+        </section>
+        <section name="product-cards">
+            <div class="w3-flex" style="gap: 12px;">
+                <div class="w3-container">
+                    <div class="w3-card-4 w3-center goodpay-card">
+                        <h2>Cashback</h2>
+                        <img src="./img/card1.png" style="width: 100%;">
+                        <div class="w3-container w3-center">
+                            <p>Promoção: Volte para o jogo com cashback de crétitos ESG.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-container">
+                    <div class="w3-card-4 w3-center goodpay-card">
+                        <h2>Cashback</h2>
+                        <img src="./img/card2.png" style="width: 100%;">
+                        <div class="w3-container w3-center">
+                            <p>Promoção: Volte para o jogo com cashback de crétitos ESG.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-container">
+                    <div class="w3-card-4 w3-center goodpay-card">
+                        <h2>Cashback</h2>
+                        <img src="./img/card3.png" style="width: 100%;">
+                        <div class="w3-container w3-center">
+                            <p>Promoção: Volte para o jogo com cashback de crétitos ESG.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
-
+        <script src="./js/action.js"></script>    
     </footer>
 </body>
 

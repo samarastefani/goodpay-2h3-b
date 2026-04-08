@@ -1,7 +1,10 @@
 body{
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
     font-family: 'Poppins','Verdana','Arial';
+    background: linear-gradient(182deg,rgba(34, 171, 125, 1) 0%, rgba(167, 232, 191, 1) 18%, rgba(255, 255, 255, 1) 100%);    
+    max-width: 1090px;
 }
 h2, p{
     margin: 10px;
@@ -35,4 +38,23 @@ h2, p{
     background-color: #009929;
     padding: 5px;
     margin: 0;
-} 
+}
+.mySlides{
+    display: none;
+}
+.w3-left, .w3-right, .w3-badge{
+    cursor: pointer;
+}
+.w3-badge{
+    height: 13px; 
+    width: 13px;
+    padding: 0;
+}
+.banner{
+    max-width: 1090px;
+}
+.goodpay-card{
+    width: 100%;
+    max-width: 350px;
+    background-color: aliceblue;
+}
