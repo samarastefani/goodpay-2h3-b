@@ -1,15 +1,19 @@
-body{
+body {
     margin-left: auto;
     margin-right: auto;
     padding: 0;
-    font-family: 'Poppins','Verdana','Arial';
-    background: linear-gradient(182deg,rgba(34, 171, 125, 1) 0%, rgba(167, 232, 191, 1) 18%, rgba(255, 255, 255, 1) 100%);    
+    font-family: 'Poppins', 'Verdana', 'Arial';
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(130, 197, 24, 1) 100%);
     max-width: 1090px;
 }
-h2, p{
+
+h2,
+p {
     margin: 10px;
 }
-.menu{
+
+.menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -17,12 +21,12 @@ h2, p{
     background-color: #444444;
 }
 
-.menu li{
+.menu li {
     float: left;
 }
 
-.menu li a{
-    display:block;
+.menu li a {
+    display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -30,30 +34,37 @@ h2, p{
     height: fit-content;
 }
 
-.menu li a:hover:not(.active){
+.menu li a:hover:not(.active) {
     background-color: #111111;
 }
 
-.menu li a.active{
+.menu li a.active {
     background-color: #009929;
     padding: 5px;
     margin: 0;
 }
-.mySlides{
+
+.mySlides {
     display: none;
 }
-.w3-left, .w3-right, .w3-badge{
+
+.w3-left,
+.w3-right,
+.w3-badge {
     cursor: pointer;
 }
-.w3-badge{
-    height: 13px; 
+
+.w3-badge {
+    height: 13px;
     width: 13px;
     padding: 0;
 }
-.banner{
+
+.banner {
     max-width: 1090px;
 }
-.goodpay-card{
+
+.goodpay-card {
     width: 100%;
     max-width: 350px;
     background-color: aliceblue;
