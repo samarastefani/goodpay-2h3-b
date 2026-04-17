@@ -24,3 +24,27 @@ function showDivs(n) {
     x[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " w3-white";
 }
+function faqFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+document.getElementsByClassName("tablink")[0].click();
+
+function openAboutUs(evt, pageName) {
+    var i, x, tablinks;
+    x = document.getElementsByClassName("page");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < x.length; i++) {
+        tablinks[i].classList.remove("w3-light-grey");
+    }
+    document.getElementById(pageName).style.display = "block";
+    evt.currentTarget.classList.add("w3-light-grey");
+}
