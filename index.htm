@@ -31,7 +31,7 @@
                         <a href="#">EcoMoney</a>
                     </li>
                     <li>
-                        <a href="#">Cadastro</a>
+                        <a href="#" onclick="document.getElementById('id02').style.display='block'">Cadastro</a>
                     </li>
                     <li>
                         <a href="#">Notícias</a>
@@ -303,9 +303,9 @@
         <section name="modal-sobrenos">
             <div id="id01" class="w3-modal">
                 <div class="w3-modal-content w3-card-4 w3-animate-zoom">
-                    <header class="w3-container w3-lime">
+                    <header class="w3-container w3-pale-green">
                         <span onclick="document.getElementById('id01').style.display='none'"
-                            class="w3-lime w3-button w3-xlarge w3-display-topright">
+                            class="w3-pale-green w3-button w3-xlarge w3-display-topright">
                             &times;
                         </span>
                         <h1>Sobre Nós</h1>
@@ -321,9 +321,10 @@
                             Tecnologia e Inovação
                         </button>
                     </div>
-                    <div id="historia" class="w3-container page">
+                    <div id="historia" class="w3-container goodpay-modal page">
                         <h1>Nossa História</h1>
                         <strong>De Matão para o mundo: A origem do GoodPay</strong>
+                        <hr>
                         <p>
                             O GoodPay não nasceu em uma sala de reuniões corporativa, mas sim dentro de um ambiente de
                             educação e transformação: a Etec Sylvio de Matos Carvalho, na cidade de Matão. Somos um
@@ -339,9 +340,10 @@
                             tecnológica responsável e cidadania.
                         </p>
                     </div>
-                    <div id="missao" class="w3-container page">
+                    <div id="missao" class="w3-container goodpay-modal page">
                         <h1>Missão e Valores</h1>
                         <strong>Tecnologia com propósito humano</strong>
+                        <hr>
                         <p>
                             Nosso motor é a crença de que a tecnologia de ponta deve ser acessível e voltada para o bem
                             comum. No GoodPay, trabalhamos para construir pontes em vez de muros.
@@ -362,9 +364,10 @@
                             Excelência Técnica: Rigor e qualidade em tudo o que desenvolvemos. <br>
                         </p>
                     </div>
-                    <div id="tecnologia" class="w3-container page">
+                    <div id="tecnologia" class="w3-container goodpay-modal page">
                         <h1>Tecnologia e Inovação</h1>
                         <strong>Arquitetura de ponta para impacto real</strong>
+                        <hr>
                         <p>
                             Para que um projeto de empreendedorismo social alcance seu verdadeiro potencial, ele precisa
                             de uma infraestrutura robusta, segura e escalável. É por isso que o GoodPay foi arquitetado
@@ -381,6 +384,29 @@
                             importa: a experiência do usuário e a entrega de valor, mantendo o sistema rápido e
                             confiável. <br>
                         </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section name="cadastro-usuario">
+            <div id="id02" class="w3-modal">
+                <div class="w3-modal-content w3-animate-top w3-card-4">
+                    <header class="w3-container w3-pale-green">
+                        <span onclick="document.getElementById('id02').style.display='none'"
+                            class="w3-button w3-display-topright">&times;</span>
+                        <h2>Cadastro de GoodPay</h2>
+                    </header>
+                    <div class="w3-container">
+                        <h2>Cadastre-se:</h2>
+                        <hr>
+                        <form action="" class="w3-container">
+                            <p>
+                                <input id="email" class="w3-input" type="email" placeholder="Entre e-mail">
+                            </p>
+                            <p>
+                                <input id="senha" class="w3-input" type="password" placeholder="Digite sua senha">
+                            </p>
+                        </form>
                     </div>
                 </div>
             </div>
