@@ -399,14 +399,41 @@
                     <div class="w3-container">
                         <h2>Cadastre-se:</h2>
                         <hr>
+                        <div class="w3-center">
+                            <img class="w3-circle w3-margin-top" src="./img/goodpay.png" alt="avatar"
+                                style="width: 30%;">
+                        </div>
                         <form action="" class="w3-container">
                             <p>
-                                <input id="email" class="w3-input" type="email" placeholder="Entre e-mail">
+                                <input id="email" class="w3-input" type="email" placeholder="Entre e-mail" />
                             </p>
                             <p>
-                                <input id="senha" class="w3-input" type="password" placeholder="Digite sua senha">
+                                <input id="senha" class="w3-input" type="password" placeholder="Digite sua senha" />
+                            </p>
+                            <p>
+                                <input id="nome" class="w3-input" type="text" placeholder="Digite seu nome" />
+                            </p>
+                            <p>
+                                <select class="w3-select" id="regra">
+                                    <option value="" disabled selected>Selecione a Opção</option>
+                                    <option value="admin">Admin</option>
+                                    <option value="user">User</option>
+                                </select>
+                            </p>
+                            <p>
+                                <input class="w3-radio" type="radio" name="genero" value="masculino" checked />
+                                <label>Masculino</label>
+                                <input class="w3-radio" type="radio" name="genero" value="feminino" />
+                                <label>Feminino</label>
+                                <input class="w3-radio" type="radio" name="genero" value="outro" />
+                                <label>Outro</label>
+                                <input class="w3-radio" type="radio" name="genero" value="pnf" />
+                                <label>Prefiro não informar</label>
                             </p>
                         </form>
+                        <p>
+                            <button class="w3-btn w3-block w3-green">Enviar Cadastro</button>
+                        </p>
                     </div>
                 </div>
             </div>
