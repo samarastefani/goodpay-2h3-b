@@ -28,13 +28,13 @@
                         <a href="#">Programa</a>
                     </li>
                     <li>
-                        <a href="#">EcoMoney</a>
+                        <a href="#" onclick="document.getElementById('id04').style.display='block'">EcoMoney</a>
                     </li>
                     <li>
                         <a href="#" onclick="document.getElementById('id02').style.display='block'">Cadastro</a>
                     </li>
                     <li>
-                        <a href="#">Notícias</a>
+                        <a href="#" onclick="document.getElementById('id03').style.display='block'">Notícias</a>
                     </li>
                     <li style="float:right;">
                         <a href="#" onclick="document.getElementById('id01').style.display='block'">Sobre Nós</a>
@@ -435,6 +435,32 @@
                             <button class="w3-btn w3-block w3-green">Enviar Cadastro</button>
                         </p>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section name="modal-noticias">
+            <div id="id03" class="w3-modal">
+                <div class="w3-modal-content w3-animate-top w3-card-4">
+                    <header class="w3-container w3-pale-green">
+                        <span onclick="document.getElementById('id03').style.display='none'"
+                            class="w3-button w3-display-topright">&times;</span>
+                        <h2>Canal de Notícias</h2>
+                    </header>
+                    <iframe width="900" height="540" src="https://rss.app/embed/v1/imageboard/tM1bEegBBzkKPX33"
+                        frameborder="0"></iframe>
+                </div>
+            </div>
+        </section>
+        <section name="modal-ecomoney">
+            <div id="id04" class="w3-modal">
+                <div class="w3-modal-content w3-animate-top w3-card-4">
+                    <header class="w3-container w3-pale-green">
+                        <span onclick="document.getElementById('id04').style.display='none'"
+                            class="w3-button w3-display-topright">&times;</span>
+                        <h2>Sustentabilidade e Negocios</h2>
+                    </header>
+                    <iframe width="850" height="540" src="https://rss.app/embed/v1/list/thIc3o9cIFZIk4p4"
+                        frameborder="0"></iframe>
                 </div>
             </div>
         </section>
